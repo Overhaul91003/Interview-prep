@@ -1,36 +1,46 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🚀 Skillify — Your AI-Powered Mock Interview Companion
 
-## Getting Started
+## 🧠 Introduction
 
-First, run the development server:
+Built with **Next.js** for the user interface and backend logic, **Firebase** for authentication and data storage, styled with **Tailwind CSS**, and enhanced by **Vapi’s voice agents** and **Google Gemini**, **Skillify** is an AI-integrated platform designed to help students practice and master job interviews.  
+
+This sleek and modern web app creates realistic, voice-driven mock interviews and provides instant AI feedback to help students build confidence, improve performance, and feel at ease during real-life interviews. The AI interviewers are friendly, encouraging, and tailored to guide learners in a supportive manner.
+
+---
+
+## 🔋 Features
+
+👉 **Authentication**: Sign up and sign in using secure email/password authentication handled by Firebase.  
+👉 **Create Interviews**: Generate realistic job interviews powered by AI voice assistants (Vapi) and Google Gemini prompts.  
+👉 **AI Feedback**: Receive instant, intelligent feedback after each interview based on your voice responses and transcript.  
+👉 **Modern UI/UX**: Clean, professional interface built with `shadcn/ui` and Tailwind CSS for a refined experience.  
+👉 **Interview Page**: Real-time AI-driven interviews with dynamic questions and detailed response analysis.  
+👉 **Dashboard**: Track and manage your interview history with easy-to-navigate components.  
+👉 **Fully Responsive**: Optimized for desktops, tablets, and mobile devices.  
+👉 **Scalable Codebase**: Modular and reusable architecture ensures easy maintenance and extension.  
+
+---
+
+## 🧰 Tech Stack
+
+**Next.js** – React-based framework for building performant frontend and backend logic in a single project.  
+**Firebase** – Provides real-time database and secure authentication for managing users and storing interview data.  
+**Tailwind CSS** – Utility-first CSS framework for building fast, responsive, and consistent UI layouts.  
+**Vapi AI** – AI-powered voice agents that simulate real interviewers and conduct conversations with users.  
+**shadcn/ui** – A set of beautifully designed, accessible UI components that enhance design and developer experience.  
+**Google Gemini** – Advanced AI model used to generate intelligent questions and insightful feedback.  
+**Zod** – Type-safe schema validation for form inputs and data models to ensure robust data handling.
+
+---
+
+## 🧑‍💻 Getting Started
+
+To run **Skillify** locally on your machine, follow these steps:
 
 ```bash
+git clone https://github.com/Overhaul91003/Interview-prep.git
+cd Interview-prep
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
